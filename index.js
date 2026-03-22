@@ -36,7 +36,7 @@ bot.hears('📄 Сформировать согласие', async (ctx) => {
 
   await ctx.replyWithDocument({ source: 'consent.pdf' });
 });
-
+ 
 bot.hears('📋 Протокол консультации', async (ctx) => {
   const html = `
     <h1>ПРОТОКОЛ КОНСУЛЬТАЦИИ</h1>
